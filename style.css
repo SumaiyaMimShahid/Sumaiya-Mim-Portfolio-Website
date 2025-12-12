@@ -1,0 +1,134 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+body{
+    background: #e8d9f3;
+    display: flex;
+}
+
+/* SIDE NAV */
+.side-nav{
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-nav a{
+    background: #6d4ca0;
+    color: white;
+    width: 110px;
+    padding: 10px 6px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: .3s;
+}
+
+.side-nav a:hover{
+    background: #553489;
+}
+
+/* HERO SECTION */
+.hero{
+    display: top right;
+    height: 100vh;
+    padding-left: 40px;
+    padding-right: 150px;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.profile{
+    width: 330px;
+    border-radius: 8px;
+}
+
+/* RIGHT SIDE */
+.right{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 60%;
+}
+
+.title-box{
+    background: #6d4ca0;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 15px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.title-box h1{
+    font-size: 32px;
+}
+
+.subtitle{
+    font-size: 14px;
+    opacity: 0.9;
+    margin-top: -5px;
+}
+
+.heading{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-text{
+    font-size: 15px;
+    line-height: 1.7;
+    background: white;
+    padding: 18px;
+    width: 90%;
+    border-left: 4px solid #6d4ca0;
+    border-radius: 10px;
+}
+
+/* SOCIAL LINKS */
+.social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.social a{
+    background: #6d4ca0;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.social a:hover{
+    background: #482f73;
+}
+
+.cv-btn{
+    background: #fff !important;
+    color: #6d4ca0 !important;
+    border: 2px solid #6d4ca0;
+}
