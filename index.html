@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumaiya Mim | Aspiring Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--header and navigation bar-->
     <header>
         <div class="container">
             <nav>
                 <div class="logo">Sumaiya<span>Mim</span></div>
-                <div class="menu-toggle" id="menuToggle">
+                <input type="checkbox" id="menuToggle" style="display: none;">
+                <label for="menuToggle" class="menu-toggle">
                     <i class="fas fa-bars"></i>
-                </div>
-                <ul class="nav-links" id="navLinks">
+                </label>
+                <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -35,12 +40,15 @@
             <h1>Hi, I am <span style="color: var(--primary);">Sumaiya Mim</span></h1>
             <p class="title">Aspiring Developer</p>
             <p>Undergraduate Student, CSE - International Islamic University Chittagong</p>
-            <p>I am an undergraduate CSE student at IIUC with developing interests in web development, automation tools, and foundational cybersecurity. My work revolves around building functional, user-friendly digital solutions and improving my technical capabilities through continuous learning.</p>
+            <p>I am an undergraduate CSE student at IIUC with developing interests in web development, automation tools,
+                and foundational cybersecurity. My work revolves around building functional, user-friendly digital
+                solutions and improving my technical capabilities through continuous learning.</p>
             <a href="#contact" class="btn">Contact Me</a>
-            <a href="Resume/Sumaiya_Mim_Resume.pdf" class="btn" id="downloadBtn" style="margin-left: 10px;">Download CV</a>
+            <a href="Resume/Sumaiya_Mim_Resume.pdf" class="btn" id="downloadBtn" style="margin-left: 10px;">Download
+                CV</a>
         </div>
         <div>
-            <img class="hero-image" src="images/portfolio picture.png" alt="Hero Image" >
+            <img class="hero-image" src="images/portfolio picture.png" alt="Hero Image">
         </div>
     </section>
 
@@ -52,25 +60,32 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I approach every project with patience, clarity, and a strong commitment to deliberate, meaningful progress. I am passionate about creating digital solutions that are both functional and user friendly.</p>
-                    <p>As a CSE student, I'm constantly learning and expanding my skills in various areas of technology with a particular focus on web development and cybersecurity.</p>
+                    <p>I approach every project with patience, clarity, and a strong commitment to deliberate,
+                        meaningful progress. I am passionate about creating digital solutions that are both functional
+                        and user friendly.</p>
+                    <p>As a CSE student, I'm constantly learning and expanding my skills in various areas of technology
+                        with a particular focus on web development and cybersecurity.</p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-box">
-                        <h3>800+</h3>
-                        <p>Development Hours</p>
+                        <h3>PSC</h3>
+                        <p><span style="color: var(--primary);">Instutute:</span>Chittagong Ideal High School <br><span
+                                style="color: var(--primary);">GPA:</span>4.88</p>
                     </div>
                     <div class="stat-box">
-                        <h3>Moderate</h3>
-                        <p>Increase in Skills</p>
+                        <h3>JSC</h3>
+                        <p><span style="color: var(--primary);">Instutute:</span>Chittagong Ideal High School <br><span
+                                style="color: var(--primary);">GPA:</span>4.64</p>
                     </div>
                     <div class="stat-box">
-                        <h3>Moderate</h3>
-                        <p>Project Completion Rate</p>
+                        <h3>SSC</h3>
+                        <p><span style="color: var(--primary);">Instutute:</span>Chittagong Ideal High School <br><span
+                                style="color: var(--primary);">GPA:</span>5.00</p>
                     </div>
                     <div class="stat-box">
-                        <h3>Learning Languages</h3>
-                        <p>Ongoing</p>
+                        <h3>HSC</h3>
+                        <p><span style="color: var(--primary);">Instutute:</span>BAF Shaheen College<br><span
+                                style="color: var(--primary);">GPA:</span>4.33</p>
                     </div>
                 </div>
             </div>
@@ -126,46 +141,33 @@
             <div class="section-title">
                 <h2>Projects</h2>
             </div>
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web</button>
-                <button class="filter-btn" data-filter="system">System</button>
-            </div>
             <div class="projects-grid">
-                <div class="project-card" data-category="web">
+                <div class="project-card">
                     <div class="project-img">
-                        <i class="fas fa-hospital"></i>
+                        <img src="images/Hospital Management System.PNG" alt="project image">
                     </div>
                     <div class="project-info">
-                        <h3>Hospital Website</h3>
-                        <p>A responsive website for a hospital with appointment booking and doctor information.</p>
+                        <h3>Hospital Management System</h3>
+                        <p>A console-based application for a hospital with appointment booking and doctor information.
+                        </p>
                     </div>
                 </div>
-                <div class="project-card" data-category="web">
+                <div class="project-card">
                     <div class="project-img">
-                        <i class="fas fa-briefcase"></i>
+                        <img src="images/Mini ATM Programm.jpg" alt="mini atm project image">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mini ATM Programm</h3>
+                        <p>A comprehensive system for managing resources, tasks, and user information.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/Portfolio-Website-Project.png" alt="">
                     </div>
                     <div class="project-info">
                         <h3>Portfolio Website</h3>
                         <p>Personal portfolio website to showcase projects and skills with a modern design.</p>
-                    </div>
-                </div>
-                <div class="project-card" data-category="system">
-                    <div class="project-img">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>Management System</h3>
-                        <p>A comprehensive system for managing resources, tasks, and user information.</p>
-                    </div>
-                </div>
-                <div class="project-card" data-category="web">
-                    <div class="project-img">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>E-commerce Website</h3>
-                        <p>Online shopping platform with product catalog, cart, and checkout functionality.</p>
                     </div>
                 </div>
             </div>
@@ -181,35 +183,79 @@
             <div class="achievements-grid">
                 <div class="achievement-card">
                     <div class="achievement-img">
-                        <i class="fas fa-trophy"></i>
+                        <img src="Achievements/Introduction to Programming.png" alt="achievement into to programming">
                     </div>
                     <div class="achievement-info">
-                        <h3>MELAND Hackathon Winner</h3>
-                        <p>First prize in the MELAND Hackathon 2023 for innovative web solution.</p>
+                        <h3>Introduction to Programming</h3>
+                        <p>First achievement in beginning of programming.</p>
                     </div>
                 </div>
                 <div class="achievement-card">
                     <div class="achievement-img">
-                        <i class="fas fa-award"></i>
+                        <img src="Achievements/Intro to Web Development.png" alt="achievement intro to web development">
                     </div>
                     <div class="achievement-info">
-                        <h3>Best Project Award</h3>
-                        <p>Recognized for the Hospital Website project at university tech fest.</p>
+                        <h3>Intro to Web Development</h3>
+                        <p>An achievement in learning web development basics.</p>
                     </div>
                 </div>
                 <div class="achievement-card">
                     <div class="achievement-img">
-                        <i class="fas fa-certificate"></i>
+                        <img src="Achievements/Advanced Programming.png" alt="achievement advanced programming">
                     </div>
                     <div class="achievement-info">
-                        <h3>Web Development Certification</h3>
-                        <p>Completed advanced web development course with distinction.</p>
+                        <h3>Advanced Programming</h3>
+                        <p>Advanced web development course with distinction.</p>
                     </div>
                 </div>
+                <div class="achievement-card">
+                    <div class="achievement-img">
+                        <img src="Achievements/CERTIFICATE OF INTERNSHIP.png" alt="achievement internship">
+                    </div>
+                    <div class="achievement-info">
+                        <h3>Internship Certificate</h3>
+                        <p>Three months internship programm in GAO Tek.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-img">
+                        <img src="Achievements/DIGITAL MARKETING.png" alt="achievement digital marketing">
+                    </div>
+                    <div class="achievement-info">
+                        <h3>CERTIFICATE OF DIGITAL MARKETING</h3>
+                        <p>Three months internship programm in GAO Tek. in Digital Marketing.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-img">
+                        <img src="Achievements/Human RESOURCES.png" alt="achievement human resources">
+                    </div>
+                    <div class="achievement-info">
+                        <h3>CERTIFICATE OF HUMAN RESOURCES</h3>
+                        <p>Three months internship programm in GAO Tek. in Human Resources.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-img">
+                        <img src="Achievements/LOCAL PARTICIPANT CERTIFICATE.png" alt="achievement local">
+                    </div>
+                    <div class="achievement-info">
+                        <h3>LOCAL PARTICIPANT CERTIFICATE</h3>
+                        <p>Participated in Nasa Space App Challenge Hackathon locally from Chittagong division.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-img">
+                        <img src="Achievements/NASA Space Apps Challenge.png" alt="achievement nasa space apps">
+                    </div>
+                    <div class="achievement-info">
+                        <h3>NASA Space Apps Challenge</h3>
+                        <p>Participated in Nasa Space App Challenge Hackathon 2024 from Team Space Station.</p>
+                    </div>
             </div>
-            <div style="text-align: center; margin-top: 2rem;">
-                <p style="font-style: italic; color: var(--gray);">And many more to come!</p>
-            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; padding: 0 15px;">
+            <p style="font-style: italic; color: var(--gray);">And many more to come!</p>
         </div>
     </section>
 
@@ -221,9 +267,9 @@
             </div>
             <div class="contact-container">
                 <div class="contact-info">
-                    <p>Feel free to get in touch with me for any inquiries, collaboration opportunities, or just to say hello. I'm always open to discussing new projects and ideas.</p>
+                    <p>Feel free to get in touch with me for any inquiries, collaboration opportunities, or just to say
+                        hello. I'm always open to discussing new projects and ideas.</p>
                     <p>You can reach me via email or connect with me on social media platforms.</p>
-                    <p>I typically respond within 24 hours.</p>
                 </div>
                 <div class="contact-form">
                     <form id="contactForm">
@@ -241,7 +287,8 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Your Message</label>
-                            <textarea id="message" class="form-control" placeholder="Enter your message" required></textarea>
+                            <textarea id="message" class="form-control" placeholder="Enter your message"
+                                required></textarea>
                         </div>
                         <button type="submit" class="btn" style="width: 100%;">Submit Message</button>
                     </form>
@@ -257,10 +304,10 @@
                 <h2 style="color: white; margin-bottom: 1rem;">Sumaiya Mim</h2>
                 <p>Aspiring Developer & CSE Student</p>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#https://github.com/SumaiyaMimShahid"><i class="fab fa-github"></i></a>
+                    <a href="#www.linkedin.com/in/sumaiya-mim-496644331"><i class="fab fa-linkedin"></i></a>
+                    <a href="#https://www.instagram.com/sumaiyassm?igsh=Z3c3M2dubWw5YW9x"><i class="fab fa-instagram"></i></a>
+                    <a href="#https://www.facebook.com/sumaiya.mim.199670"><i class="fab fa-facebook"></i></a>
                 </div>
                 <a href="#home" class="back-to-top">
                     <i class="fas fa-arrow-up"></i>
@@ -273,5 +320,3 @@
     </footer>
 
     <script src="script.js"></script>
-</body>
-</html>
