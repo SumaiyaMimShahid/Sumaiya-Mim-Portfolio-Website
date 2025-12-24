@@ -31,6 +31,7 @@ h1, h2, h3, h4 {
 }
 
 .container {
+    text-align: left;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -91,11 +92,14 @@ nav {
     color: var(--primary);
 }
 
-/* Hero Section */
+/*hero section*/
 .hero {
     padding: 10rem 0 5rem;
     background: linear-gradient(135deg, #f5f7ff 0%, #e3e6ff 100%);
-    text-align: center;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero h1 {
@@ -105,16 +109,24 @@ nav {
 }
 
 .hero .title {
+    text-align: left;
     font-size: 1.8rem;
     color: var(--primary);
     margin-bottom: 1.5rem;
 }
 
 .hero p {
+    text-align: left;
     font-size: 1.2rem;
     color: var(--gray);
     max-width: 700px;
     margin: 0 auto 2rem;
+}
+.hero-image {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .btn {
@@ -470,6 +482,8 @@ footer {
 
     .hero {
         padding: 8rem 0 4rem;
+        flex-direction: column;
+        text-align: center;
     }
 
     .hero h1 {
