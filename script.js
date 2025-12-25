@@ -1,4 +1,4 @@
-// Mobile Menu Toggle
+//Mobile Menu Toggle
 const menuToggle = document.getElementById('menuToggle');
 const navLinks = document.getElementById('navLinks');
 
@@ -6,22 +6,22 @@ menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
-// Close mobile menu when clicking on a link
+//Close mobile menu when clicking on a link
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
     });
 });
 
-// Project Filtering
+//Project Filtering
 const filterButtons = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');
 
 filterButtons.forEach(button => {
     button.addEventListener('click', () => {
-        // Remove active class from all buttons
+        //Remove active class from all buttons
         filterButtons.forEach(btn => btn.classList.remove('active'));
-        // Add active class to clicked button
+        //Add active class to clicked button
         button.classList.add('active');
         
         const filterValue = button.getAttribute('data-filter');
@@ -36,18 +36,18 @@ filterButtons.forEach(button => {
     });
 });
 
-// Contact Form Submission
+//Contact Form Submission
 const contactForm = document.getElementById('contactForm');
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     
-    // Get form values
+    //Get form values
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
     
-    // Simple validation
+    //Simple validation
     if (name && email && message) {
         alert(`Thank you for your message, ${name}! I'll get back to you soon at ${email}.`);
         contactForm.reset();
@@ -56,7 +56,7 @@ contactForm.addEventListener('submit', (e) => {
     }
 });
 
-// Download CV Button
+//Download CV Button
 const downloadBtn = document.getElementById('downloadBtn');
 
 downloadBtn.addEventListener('click', (e) => {
@@ -64,7 +64,7 @@ downloadBtn.addEventListener('click', (e) => {
     alert('CV download would start here. In a real website, this would link to a PDF file.');
 });
 
-// Smooth scrolling for anchor links
+//Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -82,7 +82,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Add active class to nav links based on scroll position
+//Add active class to nav links based on scroll position
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-links a');
