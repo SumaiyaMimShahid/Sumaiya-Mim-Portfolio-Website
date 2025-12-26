@@ -100,6 +100,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    overflow: visible;
+    min-height: 100vh;
 }
 
 .hero h1 {
@@ -121,16 +124,26 @@ nav {
     color: var(--gray);
     max-width: 700px;
     margin: 0 0 32px 0;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .hero-image {
-    width: 250px;
+    position: absolute;
+    bottom: -0px;     
+    right: -5px;
+
+    width: 700px;
     height: auto;
-    border-radius: 15%;
-    margin-top: 32px;
-    margin-right: 40px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
 }
+
+
+#about,
+.about {
+    margin-top: 120px;
+}
+
+
+
 
 .btn {
     display: inline-block;
