@@ -113,9 +113,9 @@ nav {
 
 .hero .title {
     text-align: left;
-    font-size: 29px;
+    font-size: 20px;
     color: var(--primary);
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 
 .hero p {
@@ -123,13 +123,13 @@ nav {
     font-size: 19px;
     color: var(--gray);
     max-width: 700px;
-    margin: 0 0 32px 0;
-    margin-left: 50px;
+    margin: 0 0 10px 0;
+    margin-left: 5px;
 }
 .hero-image {
     position: absolute;
     bottom: -0px;     
-    right: -5px;
+    right: 0px;
 
     width: 700px;
     height: auto;
