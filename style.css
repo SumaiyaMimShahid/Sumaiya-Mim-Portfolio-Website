@@ -131,9 +131,9 @@ nav {
     bottom: -0px;     
     right: 0px;
 
-    width: 700px;
+    width: auto;
     height: auto;
-    border-radius: 10%;
+    border-radius: 0;
 }
 
 
