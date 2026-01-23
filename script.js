@@ -1,4 +1,4 @@
-//Mobile Menu Toggle
+//mobile Menu Toggle
 const menuToggle = document.getElementById('menuToggle');
 const navLinks = document.getElementById('navLinks');
 
@@ -6,7 +6,7 @@ menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
-//Close mobile menu when clicking on a link
+//close mobile menu when clicking on a link
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
@@ -19,9 +19,9 @@ const projectCards = document.querySelectorAll('.project-card');
 
 filterButtons.forEach(button => {
     button.addEventListener('click', () => {
-        //Remove active class from all buttons
+        //remove active class from all buttons
         filterButtons.forEach(btn => btn.classList.remove('active'));
-        //Add active class to clicked button
+        //add active class to clicked button
         button.classList.add('active');
         
         const filterValue = button.getAttribute('data-filter');
@@ -36,7 +36,7 @@ filterButtons.forEach(button => {
     });
 });
 
-//Contact Form Submission
+//contact Form Submission
 const contactForm = document.getElementById('contactForm');
 
 contactForm.addEventListener('submit', (e) => {
